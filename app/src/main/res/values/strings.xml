@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">DemoApp</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="navigation_settings">Settings</string>
+    <string name="generate_a_new_identity">Generate a new Identity:</string>
+    <string name="these_are_your_stored_identities">These are your stored identities:</string>
+    <string name="generate_keypair">Generate Keypair</string>
+    <string name="register_identity">Register Identity</string>
+    <string name="name_of_the_identity">Name of the identity</string>
+    <string name="home_description_text">Welcome to DAP2PNET an alternative app based on a decentralized p2p model which provides end-to-end encryption.\nIn order to use the network, you must provide a Certificate Signing Request (CSR) to the Registration Server.\nThis app does that for you! It generates a RSA-2048 bit key pair which is used to sign the created CSR. Once you are registered, the server generates a new ID for that identity and you can optionally store it to keep using it later.\nYou can contact your friends if they share their ID and Public Key with you. Once you have both values, come back and add a new contact providing the information.\nThe underlying p2p model of the network\'s architecture is entirely based on the Kad network. That means that a Distributed Hash Table (DHT) is maintained by the peers of the network. When you wish to contact your friends, you start querying the nodes which their ID is close to your friend\'s ID.\nPrivacy is a concern so try to use multiple IDs for distinct communications.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home">Home</string>
+    <string name="your_identities">Your Identities</string>
+    <string name="your_contacts">Contacts</string>
 </resources>
